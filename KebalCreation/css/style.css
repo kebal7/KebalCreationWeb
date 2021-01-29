@@ -1,0 +1,72 @@
+.main {
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    transform: translate(0%, 100%);
+    font-family: 'Popins',sans-serif;
+    text-align: center;
+    background-color: #222831;
+  }
+
+  .welcome{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 17px;
+  }
+
+  .intro-text{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: normal;
+    top: 10%;
+    position: relative;
+  }
+
+  .button{
+    top: 15%;
+    position: relative;
+  }
+
+  .btn{
+    font-size: 20px;
+    padding: 8px 36px;
+    background-color: #f2a365;
+    color: rgb(249 234 234);
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:1160px){
+    .main{
+        width: 65%;
+        height: 205px;
+    }
+
+    @media screen and (max-width:700px){
+        .main{
+            width: 80%;
+            height: 230px;
+        }
+    }
+
+    @media screen and (max-width:430px){
+        .welcome{
+            font-size: 14px;
+        }
+        .intro-text{
+            font-size: 14px;
+        }
+
+        .main{
+            width: 100%;
+            height: 225px;
+        }
+    }
+
+
+}
