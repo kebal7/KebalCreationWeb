@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #9eaaac;
+}
+
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    column-gap: 5px;
+    row-gap: 5px;
+    
+}
+
+.game-container{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    
+}
+
+.game-container:hover {
+    background-color: yellow;
+  }
+
+main h2:hover{
+    text-decoration: underline;
+}
+
+main img{
+    width: 98%;
+    height: auto;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.game-availability img{
+    width: auto;
+}
+
+
+
+
+
+
+
+
